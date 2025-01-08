@@ -1,0 +1,32 @@
+/* .boxParent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // border: 1px solid black; 
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+}
+
+.boxStyle {
+  margin: 1px;
+  border: 1px solid black;
+  width: 24%;
+  //padding-top: 25%; 
+  aspect-ratio: 1/1;
+} */
+
+.boxParent {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  border: 1px solid black;
+  /* width: 400px; */
+  width:60vh;
+}
+
+.boxStyle {
+  /* margin: 1px; */
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+}
